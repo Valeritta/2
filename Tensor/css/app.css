@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}    
+
+body .header span {
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}    
+
+#wraper {
+    max-width: 900px;
+    margin: 0 auto;
+    width: 900px;
+}
+
+header {
+    margin: 40px 0px;
+}
+
+header .title img {
+    height: 30px;
+}
+
+header .title img:hover {
+    outline: 1px solid #d0ff00;
+    cursor: pointer;
+}
+
+header .title span {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+header .title span:after {
+    content: '';
+    display: block;
+    border-top: 3px solid #1100ff;
+    width: 200px;
+    margin: 20px auto;
+}
